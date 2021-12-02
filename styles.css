@@ -10,9 +10,18 @@
     margin:auto;
 }
 
+.acitvate {
+    display: flex;
+    flex-direction: row;
+}
+
 header {
     text-align: center;
     padding: 2em;
+}
+
+h1 {
+    font-size: 2em;
 }
 
 .main {
@@ -27,6 +36,33 @@ header {
     width: 16px;
 }
 
-.active { 
+footer {
+    padding: 4em;
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
     background-color: black;
 }

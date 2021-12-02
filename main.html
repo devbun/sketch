@@ -9,14 +9,20 @@
   <body>
     <header class='container head'>
     <h1>Javascrip Sketch</h1>
+    <br>
     <p><em>Using Javascript to sketch in div elements. Mouse over to draw!</em></p>
     </header>
 
     <div class='container activate' id='activate'>
-        <input type='number' placeholder='64' id='boardSize' min='16' max='512'>
+        <input type='number' placeholder='0' id='boardSize' min='10' max='60'>
         <span class='btn' id='create-grid' onclick="boardShake(document.getElementById('boardSize').value)">
-            Start/Reset
+            Reset
         </span>
+
+          <input type="radio" id="drawBlack" name="colorType" value="drawBlack" checked="checked">
+          <label for="drawBlack">Black</label>
+          <input type="radio" id="drawColor" name="colorType" value="drawColor">
+          <label for="drawColor">Rainbow</label>
     </div>
 
     <div class='container main' id='main'>
