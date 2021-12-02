@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript Sketch</title>
+    <link rel='stylesheet' href='styles.css'/>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class='container head'>
+    <h1>Javascrip Sketch</h1>
+    <p><em>Using Javascript to sketch in div elements. Mouse over to draw!</em></p>
+    </header>
+
+    <div class='container activate' id='activate'>
+        <input type='number' placeholder='64' id='boardSize' min='16' max='512'>
+        <span class='btn' id='create-grid' onclick="boardShake(document.getElementById('boardSize').value)">
+            Start/Reset
+        </span>
+    </div>
+
+    <div class='container main' id='main'>
+    
+    </div>
+
+
+    <footer>
+    </footer>
+
+  </body>
+</html>

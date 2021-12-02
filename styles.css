@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+.container {
+    width: 501px;
+    margin:auto;
+}
+
+header {
+    text-align: center;
+    padding: 2em;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.square {
+    height: 16px;
+    width: 16px;
+}
+
+.active { 
+    background-color: black;
+}
